@@ -5,7 +5,7 @@ If you happen to look at this code and have any questions or comments, please di
 
 SUMMARY OF MY APPROACH:
 
-My approach is simple and naive.  After loading the data and joining it, I lag all time-varying covariates (creating columns with names like lag_1_Y, lag_2_Y, etc.).  I then split the data into two folds, making sure that all data for each practice ends up in the same fold (to prevent leakage).  I then train a LightGBM model on one fold and generate predictions for the other fold by first setting Z = 0 and then setting Z = 1.  (I believe this approach is sometimes called the "S-learner" approach.)  I take the difference between those predictions for each pair of individual and year and aggregate those estimates appropriately to get individual-level and practice-level estimates.
+After loading the data and joining it, I lag all time-varying covariates (creating columns with names like lag_1_Y, lag_2_Y, etc.).  I then split the data into two folds, making sure that all data for each practice ends up in the same fold (to prevent leakage).  I then train a LightGBM model on one fold and generate predictions for the other fold by first setting Z = 0 and then setting Z = 1.  I take the difference between those predictions for each pair of individual and year and aggregate those estimates appropriately to get individual-level and practice-level estimates.
 
 HOW TO RUN THE CODE:
 
