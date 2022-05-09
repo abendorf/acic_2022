@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "acic"
+version = "0.1.0"
+description = "code for the ACIC data challenge, 2022"
+authors = ["Adam Bendorf <abendorf@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sklearn = "^0.0"
+pandas = "^1.4.2"
+tqdm = "^4.64.0"
+lightgbm = "^3.3.2"
+statsmodels = "^0.13.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
