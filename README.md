@@ -1,7 +1,7 @@
 This repository contains code for my submission to the 2022 American Causal Inference Conference data challenge.
 For more information about the data challenge, see https://acic2022.mathematica.org/
 
-If you happen to look at this code and have any questions or comments, please direct those to abendorf at <insert name of google's popular email service here>.  I am not a causal inference researcher, just an interested layman, so I would greatly appreciate any feedback from more knowledgeable people.
+If you happen to look at this code and have any questions or comments, please direct those to abendorf at <insert name of google's popular email service here>.  I am not a causal inference researcher, just an interested data person trying to learn more about causal inference, so I would greatly appreciate any feedback from more knowledgeable people.
 
 SUMMARY OF MY APPROACH:
 
